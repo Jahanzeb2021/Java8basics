@@ -6,7 +6,7 @@ public class whileLoopsIntro {
 		
 	int time=15;
 	
-	//test comment
+	//be your own boss
     
 	if(time > 12) {// condition is true 
 		System.out.println("good day");// code executes 1 time 
