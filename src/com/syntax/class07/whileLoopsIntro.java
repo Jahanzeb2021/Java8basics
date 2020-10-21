@@ -5,11 +5,10 @@ public class whileLoopsIntro {
 	public static void main(String[] args) {
 		
 	int time=15;
-	
-	//be your own boss
+
     
 	if(time > 12) {// condition is true 
-		System.out.println("good day");// code executes 1 time 
+		System.out.println("good day");// code executes 3 time 
 		
 	}
 	
@@ -28,7 +27,7 @@ public class whileLoopsIntro {
 	}
 	
 	while (time > 12) {
-		System.out.println("good day");//how many times?=Infinite loop
+		System.out.println("good day");//how many times?= 3 loop
 		time--;
 	}
 	
@@ -80,5 +79,47 @@ public class whileLoopsIntro {
 	    	
 	    }
 	    
-}
-}
+ // System.out.println("-----Another way-----");
+	    
+	   int v =10;
+	    while(v<=30) {
+	    	 
+	    if (v%2==0) {
+	    		
+	    		//System.out.println(v);
+	    		
+	    		//System.out.println("I am inside while loop");
+		     // if we keep increment here --> we will get infinite loop
+	    		
+	    		}
+	    	
+	    	c++;
+	      }
+	    System.out.println("End of the code");
+	    //print number from 100 to 1 odd numbers only
+	    
+	   int m =99;
+	   while(m>0 ) {
+		System.out.println(m + " ");
+		m-=2;
+			   
+			    }
+		System.out.println(" Another way");
+		
+		int t =100;
+		
+		while(t> 0) {
+		 
+			if ((t % 2) !=0) {
+				System.out.println(f + " ");
+			}
+			
+			t--;
+			
+		}
+		
+	  
+	   }
+	    
+     }
+
