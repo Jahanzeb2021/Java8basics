@@ -18,7 +18,9 @@ public class ScannerAndLoop {
 			System.out.println("please tell me your name");
 			name=scan.nextLine();
 			System.out.println("nice to meet you "+name);
+			System.out.println("----------------");
 			number++;
+			
 			
 		}
 		

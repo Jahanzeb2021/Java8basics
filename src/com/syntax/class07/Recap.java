@@ -4,8 +4,8 @@ public class Recap {
 
 	public static void main(String[] args) {
 	
-		int Day=1;
-		String month="Friday";
+		int Day=2;
+		
 		
 		switch(Day) {
 		case 1:

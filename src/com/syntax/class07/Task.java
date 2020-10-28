@@ -14,13 +14,14 @@ public class Task {
 	    		System.out.println("I need a day off");
 	    	}else {
 	    		System.out.println("It is off today");
+	    	
 	    		workday=false;
 	    	}
+	    	
 	    	day++;
 	    	
 	    }
 		
-		
-	}
+		}
 
 }

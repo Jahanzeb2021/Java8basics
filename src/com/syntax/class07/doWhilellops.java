@@ -18,9 +18,11 @@ public class doWhilellops {
 		//1st do something then check the condition
 	    do {
 	    System.out.println("HI");
-		b++;
+		
+	    b++;
 		
 		}while(b>15);// then check the condition
+	   
 	    
 	}
 

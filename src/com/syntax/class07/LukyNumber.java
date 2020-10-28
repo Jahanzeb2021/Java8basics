@@ -17,9 +17,11 @@ public class LukyNumber {
 		
 		do {
 			System.out.println("Please enter any number from 1 to 100");
-			scan.nextInt();
+			numberFromUser=scan.nextInt();
 			
 		}while(numberFromUser!=luckyNumber);
+		
+		System.out.println("you gussed teh number right");
 	}	
 	}
 

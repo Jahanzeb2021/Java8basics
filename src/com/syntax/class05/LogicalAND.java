@@ -15,6 +15,8 @@ public class LogicalAND {
 		 System.out.println("Please enter any nymber ");
 		 int number=AND.nextInt();
 		 
+		 
+		 
 		 if(number>0 && number<=20) {
 			System.out.println("The number is small "); 
 		 
