@@ -5,38 +5,27 @@ import java.util.Scanner;
 public class Recap {
 
 	public static void main(String[] args) {
-		//Class5
-	    // Scanner- it is class that is use to take input from a user 
-		//Scanner scan;<--Variable;
-		//scan=new Scanner(System.in);
-		// I want to capture sentence
-		//String scan=scanner.nextLine();
-		// I want to capture whole number
-		// Int number=scanner.nextInt();
-		// I want to capture 1 word
-		// String word=scanner.next(0;
-		// I want to capture 1 character
-		//char singleCharacter=scanner.next().charAt(0).
+	
+		Scanner anyVariableName;
+		anyVariableName=new Scanner(System.in);
 		
-		Scanner scan=new Scanner(System.in);
+		//to coputure entire setence
+		String sentence= anyVariableName.nextLine();
+		System.out.println(sentence);
 		
-		//Capture to capture sentence
-	    
-		String sentence=scan.nextLine();
-		System.out.println("You enterred sentence: "+sentence);
+		//to copture a number
 		
-		// I want to capture number
-		int number=scan.nextInt();
-		System.out.println("You entered number: "+number);
+		int num=anyVariableName.nextInt();
+		System.out.println(num);
 		
-		//I want to capture 1 word
-		String word=scan.next();
-		System.out.println("You entered word: "+word);
 		
-		//I want to capture 1 character
-		char singleCharater=scan.next().charAt(0);
-		System.out.println("You entered 1 character: "+singleCharater);
+		//to capture double 
+		double d=anyVariableName.nextDouble();
+		System.out.println(d);
 		
+		// to capture single character 
+		char singleCharacter=anyVariableName.next().charAt(0);
+		System.out.println(singleCharacter);
 
 	}
 

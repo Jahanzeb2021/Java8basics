@@ -1,35 +1,31 @@
 package com.syntax.class05;
 
-import java.util.Scanner;
-
-public class LogicalAND {
+public class LogicalAnd {
 
 	public static void main(String[] args) {
-	
-	//I need to define whether number that is entered from user
-     //Small number is a between 0 to 20
-     //Medium number is a number between 30 to 100
-     //large number is a number between 103 to0 2000
+		/*
+		 * we have to identify f number is small, medium, large,xlarge
+		 * if number between 1 and 10 --> small
+		 * if number beteween 11 and 100 --> medium
+		 * if number between 101 and 1000--> large 
+		 * if number between 1001 and 100000 -->xlarge
+		 */
 		
-		Scanner AND=new Scanner(System.in);
-		 System.out.println("Please enter any nymber ");
-		 int number=AND.nextInt();
-		 
-		 
-		 
-		 if(number>0 && number<=20) {
-			System.out.println("The number is small "); 
-		 
-		 }else if(number>30 && number<100) {
-			 System.out.println("The number is medium");
-			 
-		 }else if(number>103 && number<=2000) {
-			System.out.println("The numer is Large"); 
-			
-		 }else {
-			 System.out.println("The number will be invalid");
-		 }
+		int num=3;
 		
+		if (num<1) {
+			System.out.println("Number is 0 or negative");
+		}else if(num>=1 && num<=10) {
+			System.out.println(num+" is a small number");
+		}else if (num>= 11 && num<=100) {
+			System.out.println(num+" is a medium number");
+		}else if(num>=101 && num<=1000) {
+			System.out.println(num+" is a large number");
+		}else if (num>=1001 && num <=10000) {
+			System.out.println(num+" is a xlarge number");
+		}else {
+			System.out.println(num+" is a huge number ");
+		}
 
 	}
 

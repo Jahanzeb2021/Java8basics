@@ -2,51 +2,40 @@ package com.syntax.class06;
 
 import java.util.Scanner;
 
-public class LargestNumber {
+public class largestNumber {
 
 	public static void main(String[] args) {
 		
-	  Scanner scanner = new Scanner(System.in);
-	  
-	  Double num1, num2, num3, max;
-	  num1 = scanner.nextDouble();
-	  num2 = scanner.nextDouble();
-	  num3 = scanner.nextDouble();
-	  
-	  if (num1> num2 && num1 > num3) {
-		   max = num1;
-	  }else if (num2 > num3) {
-		  max = num2;
-	  }else {
-		  max = num3;
-		  
-	  }
-	  
-	  System.out.println(max);
-	  double biggest;
-	 
-	  System.out.println("-----Ccomparing 2 nubers using neste if -----");
-	  
-	  //2nd way 
-	  
-	  if (num1>num2) {// number 1 larger than number 2 
-	  if (num1>num3) {
-		  biggest=num1;
-		  
-	  }else {
-		  biggest=num3;
-		  
-	  }
-	  }else {// number 2 is larger than number 1
-		  
-	if(num2>num3) {
-		biggest=num3;
+		int num1, num2,num3,largest;
+		Scanner scan=new Scanner (System.in);
+		System.out.println("Please enter 3 Numbes");
+		num1=scan.nextInt();
+		num2=scan.nextInt();
+		num3=scan.nextInt();
 		
-	  
-	  }
-		 System.out.println("The largest numberis"+biggest); 
-	  }
-	   }
+		if (num1 == num2 && num2 == num3) {
+		    System.out.println("Numbers are equals! ");
+		}else {
+			
+		}
+		if(num1>num2) {
+			if(num1>num3) {
+				largest=num1;
+			}else {
+				largest=num3;
+				}
+		}else {
+			
+			if (num2>num3) {
+				largest=num2;
+			}else {
+				largest=num3;
+				
+			}
+			System.out.println("The largest number among "+num1+", "+num2+", "+num3+" is "+largest);
+		}
+		 
+        System.out.println("----------------Done-----------------");
 	}
 
-
+}

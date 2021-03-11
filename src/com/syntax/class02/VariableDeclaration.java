@@ -3,47 +3,37 @@ package com.syntax.class02;
 public class VariableDeclaration {
 
 	public static void main(String[] args) {
-	 //1 way to create a variable
-		//create a variable= assiging value
-		//declare a variable= initializing
-      
-		double $num=12.99;
 		
-		//2 way to creat a variable 
-       // declaration a variable
-       //initialize or assing valve
+		// 1 way to create a variable 
+		short b=200; // create a variable and assign value
+		             // or declare a variable and initialized
 		
-		int mybox;// we declare variable only once
-		mybox=135;// then we assing the values in the varible 
-		System.out.println(mybox);
-		mybox=155;
-		System.out.println(mybox);//155	
+		// 2
+		int sum;// declaration happens Only ONCE 
+		sum=20; // initialized the variable
+		sum=30; // reassign the value
 		
-		// 3 way 
-		byte num1; int num2; int num3;// if variable is same type,we can delare all in one line
+		// 3
+		int x,y,z;
+		x=10;
+		y=20;
+		z=30;
 		
-		num1=10;
-		num2=20;
-		num3=30;
+		x=60;
 		
-		System.out.println(num3);
+		System.out.println(x);
 		
-		//what will be the output?
-		
-		char char1='C';
-		char char2='d';
-		
-		char char3=char1;
-		
-		System.out.println(char3);//out put will be C
+		int num=33;
+		int num1=num;
+		System.out.println(num1);
 		
 		
 		
 		
-		 
 		
 		
-       
+		
+
 	}
 
 }

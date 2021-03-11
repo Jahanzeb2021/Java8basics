@@ -1,37 +1,49 @@
 package com.syntax.class03;
 
-public class CompoundOperators {
+public class CompoundOPerators {
 
 	public static void main(String[] args) {
 		
-	 int num=100;
-	 num=num+10;
+	 int num = 100;
+	 num=num+100;
+	  
 	 System.out.println(num);
 	 
-	 num=num+200;
+	 num=num-50;
+	 
 	 System.out.println(num);
 	 
-	 int myNumber=100;
-	 myNumber+=10;//110
-	 System.out.println(myNumber);
+	 System.out.println("------------------");
 	 
-	 myNumber+=200;//310
-	 System.out.println(myNumber);
+	 int num1=100;
 	 
-	 myNumber-=100;//210
-	 System.out.println(myNumber);
-	
-	 myNumber/=10;//21
-	 System.out.println(myNumber);
+	 num1 +=100;//num1=num1+100;
+	 System.out.println(num1);//200
 	 
-	 myNumber*=1000;//21000
-	 System.out.println(myNumber);
+	 num1-=50;
+	 System.out.println(num1);//150
 	 
-	 myNumber%=100;//0
-	 System.out.println(myNumber);
+	 num1/=5;
+	 
+	 System.out.println(num1);//30
+	 
+	 num1*=10;
+	 
+	 System.out.println(num1);//300
+	 
+	 num1+=20;
+	 
+	 System.out.println(num1);
+	 System.out.println("------------------");
+	 
+	 int a=1;
+	 
+	 a+=10;// same as this a=a+10;
+	 System.out.println(a);
 	 
 	 
 	 
+		
 
 	}
 

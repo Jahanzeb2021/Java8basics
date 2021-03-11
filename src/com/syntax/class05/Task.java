@@ -4,29 +4,32 @@ import java.util.Scanner;
 
 public class Task {
 
-	 public static void main(String[] args) {
+	public static void main(String[] args) {
 		
-		String month;
-		String season;
+		Scanner scan;
+		String name;
+		int heights;
 		
-		Scanner scan = new Scanner(System.in);
-		 System.out.println("Please enter your birth month");
-		  month=scan.nextLine();
+		scan=new Scanner(System.in);
+		System.out.println("Please enter your name");
+		name=scan.next();
 		
- if (month.equalsIgnoreCase("January") || month.equalsIgnoreCase("Februar") || month.equalsIgnoreCase("Mrch")) { 
-	 season="Summer";
-			  
-}  else if (month.equalsIgnoreCase("April") || month.equalsIgnoreCase("May") || month.equalsIgnoreCase("June")) {
-		   season="Spring";
-		  
- } else  {
-	 
-	 season="Invalid";
-	 
- }
- 
-		  
- System.out.println("you were born in "+season); 
+		System.out.println("Please enter heights");
+		heights=scan.nextInt();
+		
+	       if (heights<60) {
+			System.out.println("Short");
+			
+		}else if(heights> 60 && heights<72){
+			System.out.println("Medium");
+			
+		}else if(heights>72) {       
+			System.out.println("Tall");
+			
+		}else {
+			System.out.println("Invalid age");
+		}
+		
 
 	}
 
